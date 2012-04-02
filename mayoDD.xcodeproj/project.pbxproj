@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59A9C30315293A48001B9AB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A9C30215293A48001B9AB9 /* UIKit.framework */; };
+		59A9C30515293A48001B9AB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A9C30415293A48001B9AB9 /* Foundation.framework */; };
+		59A9C30715293A48001B9AB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A9C30615293A48001B9AB9 /* CoreGraphics.framework */; };
+		59A9C30D15293A48001B9AB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59A9C30B15293A48001B9AB9 /* InfoPlist.strings */; };
+		59A9C30F15293A48001B9AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A9C30E15293A48001B9AB9 /* main.m */; };
+		59A9C31315293A48001B9AB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A9C31215293A48001B9AB9 /* AppDelegate.m */; };
+		59A9C31615293A48001B9AB9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A9C31415293A48001B9AB9 /* MainStoryboard_iPhone.storyboard */; };
+		59A9C31915293A48001B9AB9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A9C31715293A48001B9AB9 /* MainStoryboard_iPad.storyboard */; };
+		59A9C31C15293A48001B9AB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A9C31B15293A48001B9AB9 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59A9C2FE15293A48001B9AB9 /* mayoDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mayoDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A9C30215293A48001B9AB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59A9C30415293A48001B9AB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59A9C30615293A48001B9AB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59A9C30A15293A48001B9AB9 /* mayoDD-Info.plist */ = {isa = PBXFileReference; path = "mayoDD-Info.plist"; sourceTree = "<group>"; };
+		59A9C30C15293A48001B9AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59A9C30E15293A48001B9AB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59A9C31015293A48001B9AB9 /* mayoDD-Prefix.pch */ = {isa = PBXFileReference; path = "mayoDD-Prefix.pch"; sourceTree = "<group>"; };
+		59A9C31115293A48001B9AB9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		59A9C31215293A48001B9AB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59A9C31515293A48001B9AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		59A9C31815293A48001B9AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		59A9C31A15293A48001B9AB9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		59A9C31B15293A48001B9AB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59A9C2FB15293A48001B9AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A9C30315293A48001B9AB9 /* UIKit.framework in Frameworks */,
+				59A9C30515293A48001B9AB9 /* Foundation.framework in Frameworks */,
+				59A9C30715293A48001B9AB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A9C2F315293A47001B9AB9 = {
+			isa = PBXGroup;
+			children = (
+				59A9C30815293A48001B9AB9 /* mayoDD */,
+				59A9C30115293A48001B9AB9 /* Frameworks */,
+				59A9C2FF15293A48001B9AB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59A9C2FF15293A48001B9AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59A9C2FE15293A48001B9AB9 /* mayoDD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59A9C30115293A48001B9AB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A9C30215293A48001B9AB9 /* UIKit.framework */,
+				59A9C30415293A48001B9AB9 /* Foundation.framework */,
+				59A9C30615293A48001B9AB9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59A9C30815293A48001B9AB9 /* mayoDD */ = {
+			isa = PBXGroup;
+			children = (
+				59A9C31115293A48001B9AB9 /* AppDelegate.h */,
+				59A9C31215293A48001B9AB9 /* AppDelegate.m */,
+				59A9C31415293A48001B9AB9 /* MainStoryboard_iPhone.storyboard */,
+				59A9C31715293A48001B9AB9 /* MainStoryboard_iPad.storyboard */,
+				59A9C31A15293A48001B9AB9 /* ViewController.h */,
+				59A9C31B15293A48001B9AB9 /* ViewController.m */,
+				59A9C30915293A48001B9AB9 /* Supporting Files */,
+			);
+			path = mayoDD;
+			sourceTree = "<group>";
+		};
+		59A9C30915293A48001B9AB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59A9C30A15293A48001B9AB9 /* mayoDD-Info.plist */,
+				59A9C30B15293A48001B9AB9 /* InfoPlist.strings */,
+				59A9C30E15293A48001B9AB9 /* main.m */,
+				59A9C31015293A48001B9AB9 /* mayoDD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59A9C2FD15293A48001B9AB9 /* mayoDD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A9C31F15293A48001B9AB9 /* Build configuration list for PBXNativeTarget "mayoDD" */;
+			buildPhases = (
+				59A9C2FA15293A48001B9AB9 /* Sources */,
+				59A9C2FB15293A48001B9AB9 /* Frameworks */,
+				59A9C2FC15293A48001B9AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mayoDD;
+			productName = mayoDD;
+			productReference = 59A9C2FE15293A48001B9AB9 /* mayoDD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59A9C2F515293A47001B9AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 59A9C2F815293A47001B9AB9 /* Build configuration list for PBXProject "mayoDD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59A9C2F315293A47001B9AB9;
+			productRefGroup = 59A9C2FF15293A48001B9AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59A9C2FD15293A48001B9AB9 /* mayoDD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59A9C2FC15293A48001B9AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A9C30D15293A48001B9AB9 /* InfoPlist.strings in Resources */,
+				59A9C31615293A48001B9AB9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				59A9C31915293A48001B9AB9 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59A9C2FA15293A48001B9AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A9C30F15293A48001B9AB9 /* main.m in Sources */,
+				59A9C31315293A48001B9AB9 /* AppDelegate.m in Sources */,
+				59A9C31C15293A48001B9AB9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59A9C30B15293A48001B9AB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A9C30C15293A48001B9AB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59A9C31415293A48001B9AB9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A9C31515293A48001B9AB9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		59A9C31715293A48001B9AB9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A9C31815293A48001B9AB9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59A9C31D15293A48001B9AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59A9C31E15293A48001B9AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59A9C32015293A48001B9AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mayoDD/mayoDD-Prefix.pch";
+				INFOPLIST_FILE = "mayoDD/mayoDD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59A9C32115293A48001B9AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mayoDD/mayoDD-Prefix.pch";
+				INFOPLIST_FILE = "mayoDD/mayoDD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59A9C2F815293A47001B9AB9 /* Build configuration list for PBXProject "mayoDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A9C31D15293A48001B9AB9 /* Debug */,
+				59A9C31E15293A48001B9AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A9C31F15293A48001B9AB9 /* Build configuration list for PBXNativeTarget "mayoDD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A9C32015293A48001B9AB9 /* Debug */,
+				59A9C32115293A48001B9AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59A9C2F515293A47001B9AB9 /* Project object */;
+}
