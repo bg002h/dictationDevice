@@ -7,32 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593C2B8D183DB840002C6601 /* abdUS2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C2B8B183DB840002C6601 /* abdUS2@2x.png */; };
+		593C2B8E183DB840002C6601 /* abdUS2.png in Resources */ = {isa = PBXBuildFile; fileRef = 593C2B8C183DB840002C6601 /* abdUS2.png */; };
+		594764EF183589D100F6DA3D /* abdomen.svg in Resources */ = {isa = PBXBuildFile; fileRef = 594764EB183589D100F6DA3D /* abdomen.svg */; };
+		594764F0183589D100F6DA3D /* abdUS.png in Resources */ = {isa = PBXBuildFile; fileRef = 594764EC183589D100F6DA3D /* abdUS.png */; };
+		594764F1183589D100F6DA3D /* abdUS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 594764ED183589D100F6DA3D /* abdUS@2x.png */; };
+		594764F2183589D100F6DA3D /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 594764EE183589D100F6DA3D /* test.png */; };
+		5991D068183661230010ABB8 /* liverBottom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5991D066183661230010ABB8 /* liverBottom.jpg */; };
+		5991D069183661230010ABB8 /* liverTop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5991D067183661230010ABB8 /* liverTop.jpg */; };
+		5991D06C183664530010ABB8 /* LiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5991D06B183664530010ABB8 /* LiverViewController.m */; };
+		5991D06F18366E140010ABB8 /* LiverSegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5991D06E18366E140010ABB8 /* LiverSegViewController.m */; };
+		5992B99F1832C53100FD063A /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5992B99E1832C53100FD063A /* FourthViewController.m */; };
+		5992B9A21832D7A000FD063A /* myRscMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 5992B9A11832D7A000FD063A /* myRscMgr.m */; };
 		59A9C30315293A48001B9AB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A9C30215293A48001B9AB9 /* UIKit.framework */; };
 		59A9C30515293A48001B9AB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A9C30415293A48001B9AB9 /* Foundation.framework */; };
 		59A9C30715293A48001B9AB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A9C30615293A48001B9AB9 /* CoreGraphics.framework */; };
-		59A9C30D15293A48001B9AB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59A9C30B15293A48001B9AB9 /* InfoPlist.strings */; };
 		59A9C30F15293A48001B9AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A9C30E15293A48001B9AB9 /* main.m */; };
 		59A9C31315293A48001B9AB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A9C31215293A48001B9AB9 /* AppDelegate.m */; };
-		59A9C31615293A48001B9AB9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A9C31415293A48001B9AB9 /* MainStoryboard_iPhone.storyboard */; };
-		59A9C31915293A48001B9AB9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A9C31715293A48001B9AB9 /* MainStoryboard_iPad.storyboard */; };
-		59A9C31C15293A48001B9AB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A9C31B15293A48001B9AB9 /* ViewController.m */; };
+		59A9C32515293A7D001B9AB9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A9C32315293A7D001B9AB9 /* MainStoryboard_iPhone.storyboard */; };
+		59A9C32715293A85001B9AB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59A9C32615293A85001B9AB9 /* InfoPlist.strings */; };
+		59A9C32A15293AB8001B9AB9 /* mayoDD-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59A9C32815293AB8001B9AB9 /* mayoDD-Info.plist */; };
+		59A9C32D15293AC2001B9AB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A9C32C15293AC2001B9AB9 /* ViewController.m */; };
+		59A9C33315293C0A001B9AB9 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A9C33215293C0A001B9AB9 /* libRscMgrUniv.a */; };
+		59A9C33515293CFD001B9AB9 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A9C33415293CFD001B9AB9 /* ExternalAccessory.framework */; };
+		59ADAE80181EC3DA00FC0C82 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ADAE7F181EC3DA00FC0C82 /* SecondViewController.m */; };
+		59DABA751836D2AB0020DED0 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DABA741836D2AB0020DED0 /* ReportViewController.m */; };
+		59DF5750181FFED6003680EE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF574F181FFED6003680EE /* ThirdViewController.m */; };
+		59DF57BD18214CA5003680EE /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59DF57B718214CA5003680EE /* FontAwesome.ttf */; };
+		59DF57D918214E7A003680EE /* BBIconLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF57D018214E7A003680EE /* BBIconLabel.m */; };
+		59DF57DA18214E7A003680EE /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF57D218214E7A003680EE /* BButton.m */; };
+		59DF57DB18214E7A003680EE /* BRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF57D418214E7A003680EE /* BRadioButton.m */; };
+		59DF57DC18214E7A003680EE /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 59DF57D718214E7A003680EE /* LICENSE.md */; };
+		59DF57DD18214E7A003680EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 59DF57D818214E7A003680EE /* README.md */; };
+		59DF57E718228D46003680EE /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF57E018228D46003680EE /* TPKeyboardAvoidingCollectionView.m */; };
+		59DF57E818228D46003680EE /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF57E218228D46003680EE /* TPKeyboardAvoidingScrollView.m */; };
+		59DF57E918228D46003680EE /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF57E418228D46003680EE /* TPKeyboardAvoidingTableView.m */; };
+		59DF57EA18228D46003680EE /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DF57E618228D46003680EE /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		593C2B8B183DB840002C6601 /* abdUS2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abdUS2@2x.png"; sourceTree = "<group>"; };
+		593C2B8C183DB840002C6601 /* abdUS2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abdUS2.png; sourceTree = "<group>"; };
+		594764EB183589D100F6DA3D /* abdomen.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = abdomen.svg; sourceTree = "<group>"; };
+		594764EC183589D100F6DA3D /* abdUS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abdUS.png; sourceTree = "<group>"; };
+		594764ED183589D100F6DA3D /* abdUS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abdUS@2x.png"; sourceTree = "<group>"; };
+		594764EE183589D100F6DA3D /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		5991D066183661230010ABB8 /* liverBottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liverBottom.jpg; sourceTree = "<group>"; };
+		5991D067183661230010ABB8 /* liverTop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = liverTop.jpg; sourceTree = "<group>"; };
+		5991D06A183664530010ABB8 /* LiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiverViewController.h; path = mayoDD/LiverViewController.h; sourceTree = SOURCE_ROOT; };
+		5991D06B183664530010ABB8 /* LiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LiverViewController.m; path = mayoDD/LiverViewController.m; sourceTree = SOURCE_ROOT; };
+		5991D06D18366E140010ABB8 /* LiverSegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiverSegViewController.h; sourceTree = "<group>"; };
+		5991D06E18366E140010ABB8 /* LiverSegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiverSegViewController.m; sourceTree = "<group>"; };
+		5992B99D1832C53100FD063A /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourthViewController.h; path = ../FourthViewController.h; sourceTree = "<group>"; };
+		5992B99E1832C53100FD063A /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourthViewController.m; path = ../FourthViewController.m; sourceTree = "<group>"; };
+		5992B9A01832D7A000FD063A /* myRscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myRscMgr.h; sourceTree = "<group>"; };
+		5992B9A11832D7A000FD063A /* myRscMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myRscMgr.m; sourceTree = "<group>"; };
 		59A9C2FE15293A48001B9AB9 /* mayoDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mayoDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A9C30215293A48001B9AB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59A9C30415293A48001B9AB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59A9C30615293A48001B9AB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		59A9C30A15293A48001B9AB9 /* mayoDD-Info.plist */ = {isa = PBXFileReference; path = "mayoDD-Info.plist"; sourceTree = "<group>"; };
-		59A9C30C15293A48001B9AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59A9C30E15293A48001B9AB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59A9C31015293A48001B9AB9 /* mayoDD-Prefix.pch */ = {isa = PBXFileReference; path = "mayoDD-Prefix.pch"; sourceTree = "<group>"; };
-		59A9C31115293A48001B9AB9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		59A9C31115293A48001B9AB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59A9C31215293A48001B9AB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		59A9C31515293A48001B9AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		59A9C31815293A48001B9AB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		59A9C31A15293A48001B9AB9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		59A9C31B15293A48001B9AB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59A9C32315293A7D001B9AB9 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		59A9C32615293A85001B9AB9 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		59A9C32815293AB8001B9AB9 /* mayoDD-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mayoDD-Info.plist"; sourceTree = "<group>"; };
+		59A9C32915293AB8001B9AB9 /* mayoDD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mayoDD-Prefix.pch"; sourceTree = "<group>"; };
+		59A9C32B15293AC2001B9AB9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59A9C32C15293AC2001B9AB9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59A9C33015293B3E001B9AB9 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		59A9C33115293B3E001B9AB9 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		59A9C33215293C0A001B9AB9 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		59A9C33415293CFD001B9AB9 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		59ADAE7E181EC3DA00FC0C82 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		59ADAE7F181EC3DA00FC0C82 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		59DABA731836D2AB0020DED0 /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		59DABA741836D2AB0020DED0 /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		59DF574E181FFED6003680EE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		59DF574F181FFED6003680EE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		59DF57B718214CA5003680EE /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		59DF57CF18214E7A003680EE /* BBIconLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBIconLabel.h; sourceTree = "<group>"; };
+		59DF57D018214E7A003680EE /* BBIconLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBIconLabel.m; sourceTree = "<group>"; };
+		59DF57D118214E7A003680EE /* BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BButton.h; sourceTree = "<group>"; };
+		59DF57D218214E7A003680EE /* BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BButton.m; sourceTree = "<group>"; };
+		59DF57D318214E7A003680EE /* BRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRadioButton.h; sourceTree = "<group>"; };
+		59DF57D418214E7A003680EE /* BRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRadioButton.m; sourceTree = "<group>"; };
+		59DF57D518214E7A003680EE /* FontAwesomeIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesomeIcons.h; sourceTree = "<group>"; };
+		59DF57D618214E7A003680EE /* IcomoonFontIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcomoonFontIcons.h; sourceTree = "<group>"; };
+		59DF57D718214E7A003680EE /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		59DF57D818214E7A003680EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		59DF57DF18228D46003680EE /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		59DF57E018228D46003680EE /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		59DF57E118228D46003680EE /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		59DF57E218228D46003680EE /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		59DF57E318228D46003680EE /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		59DF57E418228D46003680EE /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		59DF57E518228D46003680EE /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		59DF57E618228D46003680EE /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,18 +111,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A9C33515293CFD001B9AB9 /* ExternalAccessory.framework in Frameworks */,
 				59A9C30315293A48001B9AB9 /* UIKit.framework in Frameworks */,
 				59A9C30515293A48001B9AB9 /* Foundation.framework in Frameworks */,
 				59A9C30715293A48001B9AB9 /* CoreGraphics.framework in Frameworks */,
+				59A9C33315293C0A001B9AB9 /* libRscMgrUniv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59294F37181557FD002C8EB8 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		594764EA183589D100F6DA3D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				593C2B8B183DB840002C6601 /* abdUS2@2x.png */,
+				593C2B8C183DB840002C6601 /* abdUS2.png */,
+				5991D066183661230010ABB8 /* liverBottom.jpg */,
+				5991D067183661230010ABB8 /* liverTop.jpg */,
+				594764EB183589D100F6DA3D /* abdomen.svg */,
+				594764EC183589D100F6DA3D /* abdUS.png */,
+				594764ED183589D100F6DA3D /* abdUS@2x.png */,
+				594764EE183589D100F6DA3D /* test.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		59A9C2F315293A47001B9AB9 = {
 			isa = PBXGroup;
 			children = (
+				59A9C33415293CFD001B9AB9 /* ExternalAccessory.framework */,
 				59A9C30815293A48001B9AB9 /* mayoDD */,
 				59A9C30115293A48001B9AB9 /* Frameworks */,
 				59A9C2FF15293A48001B9AB9 /* Products */,
@@ -79,12 +175,29 @@
 		59A9C30815293A48001B9AB9 /* mayoDD */ = {
 			isa = PBXGroup;
 			children = (
+				59DF57DE18228D46003680EE /* TPKeyboardAvoiding */,
+				59DF57CE18214E7A003680EE /* BootstrapButton */,
+				59294F37181557FD002C8EB8 /* iPad */,
+				5992B99D1832C53100FD063A /* FourthViewController.h */,
+				5992B99E1832C53100FD063A /* FourthViewController.m */,
 				59A9C31115293A48001B9AB9 /* AppDelegate.h */,
 				59A9C31215293A48001B9AB9 /* AppDelegate.m */,
-				59A9C31415293A48001B9AB9 /* MainStoryboard_iPhone.storyboard */,
-				59A9C31715293A48001B9AB9 /* MainStoryboard_iPad.storyboard */,
-				59A9C31A15293A48001B9AB9 /* ViewController.h */,
-				59A9C31B15293A48001B9AB9 /* ViewController.m */,
+				59A9C32315293A7D001B9AB9 /* MainStoryboard_iPhone.storyboard */,
+				59DABA731836D2AB0020DED0 /* ReportViewController.h */,
+				59DABA741836D2AB0020DED0 /* ReportViewController.m */,
+				5991D06D18366E140010ABB8 /* LiverSegViewController.h */,
+				5991D06E18366E140010ABB8 /* LiverSegViewController.m */,
+				5991D06A183664530010ABB8 /* LiverViewController.h */,
+				5991D06B183664530010ABB8 /* LiverViewController.m */,
+				59A9C32C15293AC2001B9AB9 /* ViewController.m */,
+				59A9C32B15293AC2001B9AB9 /* ViewController.h */,
+				5992B9A01832D7A000FD063A /* myRscMgr.h */,
+				5992B9A11832D7A000FD063A /* myRscMgr.m */,
+				59DF574E181FFED6003680EE /* ThirdViewController.h */,
+				59DF574F181FFED6003680EE /* ThirdViewController.m */,
+				59ADAE7E181EC3DA00FC0C82 /* SecondViewController.h */,
+				59ADAE7F181EC3DA00FC0C82 /* SecondViewController.m */,
+				594764EA183589D100F6DA3D /* Images */,
 				59A9C30915293A48001B9AB9 /* Supporting Files */,
 			);
 			path = mayoDD;
@@ -93,12 +206,57 @@
 		59A9C30915293A48001B9AB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				59A9C30A15293A48001B9AB9 /* mayoDD-Info.plist */,
-				59A9C30B15293A48001B9AB9 /* InfoPlist.strings */,
+				59A9C33015293B3E001B9AB9 /* redparkSerial.h */,
+				59A9C33115293B3E001B9AB9 /* RscMgr.h */,
+				59A9C33215293C0A001B9AB9 /* libRscMgrUniv.a */,
+				59A9C32815293AB8001B9AB9 /* mayoDD-Info.plist */,
+				59A9C32915293AB8001B9AB9 /* mayoDD-Prefix.pch */,
+				59A9C32615293A85001B9AB9 /* InfoPlist.strings */,
 				59A9C30E15293A48001B9AB9 /* main.m */,
-				59A9C31015293A48001B9AB9 /* mayoDD-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59DF57B618214CA5003680EE /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				59DF57B718214CA5003680EE /* FontAwesome.ttf */,
+			);
+			name = resources;
+			path = ../BButton/resources;
+			sourceTree = "<group>";
+		};
+		59DF57CE18214E7A003680EE /* BootstrapButton */ = {
+			isa = PBXGroup;
+			children = (
+				59DF57B618214CA5003680EE /* resources */,
+				59DF57CF18214E7A003680EE /* BBIconLabel.h */,
+				59DF57D018214E7A003680EE /* BBIconLabel.m */,
+				59DF57D118214E7A003680EE /* BButton.h */,
+				59DF57D218214E7A003680EE /* BButton.m */,
+				59DF57D318214E7A003680EE /* BRadioButton.h */,
+				59DF57D418214E7A003680EE /* BRadioButton.m */,
+				59DF57D518214E7A003680EE /* FontAwesomeIcons.h */,
+				59DF57D618214E7A003680EE /* IcomoonFontIcons.h */,
+				59DF57D718214E7A003680EE /* LICENSE.md */,
+				59DF57D818214E7A003680EE /* README.md */,
+			);
+			path = BootstrapButton;
+			sourceTree = "<group>";
+		};
+		59DF57DE18228D46003680EE /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				59DF57DF18228D46003680EE /* TPKeyboardAvoidingCollectionView.h */,
+				59DF57E018228D46003680EE /* TPKeyboardAvoidingCollectionView.m */,
+				59DF57E118228D46003680EE /* TPKeyboardAvoidingScrollView.h */,
+				59DF57E218228D46003680EE /* TPKeyboardAvoidingScrollView.m */,
+				59DF57E318228D46003680EE /* TPKeyboardAvoidingTableView.h */,
+				59DF57E418228D46003680EE /* TPKeyboardAvoidingTableView.m */,
+				59DF57E518228D46003680EE /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				59DF57E618228D46003680EE /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +286,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					59A9C2FD15293A48001B9AB9 = {
+						DevelopmentTeam = 5QB2GMNC4V;
+					};
+				};
 			};
 			buildConfigurationList = 59A9C2F815293A47001B9AB9 /* Build configuration list for PBXProject "mayoDD" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -151,9 +314,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59A9C30D15293A48001B9AB9 /* InfoPlist.strings in Resources */,
-				59A9C31615293A48001B9AB9 /* MainStoryboard_iPhone.storyboard in Resources */,
-				59A9C31915293A48001B9AB9 /* MainStoryboard_iPad.storyboard in Resources */,
+				593C2B8D183DB840002C6601 /* abdUS2@2x.png in Resources */,
+				5991D069183661230010ABB8 /* liverTop.jpg in Resources */,
+				594764EF183589D100F6DA3D /* abdomen.svg in Resources */,
+				594764F2183589D100F6DA3D /* test.png in Resources */,
+				59A9C32515293A7D001B9AB9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				59A9C32715293A85001B9AB9 /* InfoPlist.strings in Resources */,
+				593C2B8E183DB840002C6601 /* abdUS2.png in Resources */,
+				594764F0183589D100F6DA3D /* abdUS.png in Resources */,
+				59A9C32A15293AB8001B9AB9 /* mayoDD-Info.plist in Resources */,
+				59DF57BD18214CA5003680EE /* FontAwesome.ttf in Resources */,
+				59DF57DD18214E7A003680EE /* README.md in Resources */,
+				5991D068183661230010ABB8 /* liverBottom.jpg in Resources */,
+				594764F1183589D100F6DA3D /* abdUS@2x.png in Resources */,
+				59DF57DC18214E7A003680EE /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,40 +338,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5991D06C183664530010ABB8 /* LiverViewController.m in Sources */,
+				5992B9A21832D7A000FD063A /* myRscMgr.m in Sources */,
+				59DF57DA18214E7A003680EE /* BButton.m in Sources */,
+				59DF57EA18228D46003680EE /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				59DF57E818228D46003680EE /* TPKeyboardAvoidingScrollView.m in Sources */,
+				59DF57E718228D46003680EE /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				59ADAE80181EC3DA00FC0C82 /* SecondViewController.m in Sources */,
+				59DF5750181FFED6003680EE /* ThirdViewController.m in Sources */,
+				5991D06F18366E140010ABB8 /* LiverSegViewController.m in Sources */,
 				59A9C30F15293A48001B9AB9 /* main.m in Sources */,
+				59DF57D918214E7A003680EE /* BBIconLabel.m in Sources */,
 				59A9C31315293A48001B9AB9 /* AppDelegate.m in Sources */,
-				59A9C31C15293A48001B9AB9 /* ViewController.m in Sources */,
+				59DF57E918228D46003680EE /* TPKeyboardAvoidingTableView.m in Sources */,
+				59A9C32D15293AC2001B9AB9 /* ViewController.m in Sources */,
+				59DF57DB18214E7A003680EE /* BRadioButton.m in Sources */,
+				59DABA751836D2AB0020DED0 /* ReportViewController.m in Sources */,
+				5992B99F1832C53100FD063A /* FourthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		59A9C30B15293A48001B9AB9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59A9C30C15293A48001B9AB9 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		59A9C31415293A48001B9AB9 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59A9C31515293A48001B9AB9 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		59A9C31715293A48001B9AB9 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59A9C31815293A48001B9AB9 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		59A9C31D15293A48001B9AB9 /* Debug */ = {
@@ -220,7 +381,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -239,7 +400,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -250,10 +411,20 @@
 		59A9C32015293A48001B9AB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mayoDD/mayoDD-Prefix.pch";
 				INFOPLIST_FILE = "mayoDD/mayoDD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/mayoDD\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,10 +432,20 @@
 		59A9C32115293A48001B9AB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mayoDD/mayoDD-Prefix.pch";
 				INFOPLIST_FILE = "mayoDD/mayoDD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/mayoDD\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,6 +469,7 @@
 				59A9C32115293A48001B9AB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
